@@ -6,4 +6,79 @@ html {
 }
 body {
   font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+/* ========= common ========= */
+a {
+  text-decoration: none;
+}
+.btn {
+  display: inline-block;
+  padding: 0 16px;
+  line-height: 50px;
+  min-width: 118px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 24.5px;
+  background: #171100;
+}
+.main-content {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+/* ========= header ========= */
+.header {
+  background: #fffcf4ff;
+}
+.header.fixed {
+  position: sticky;
+  top: -28px;
+}
+.header .body {
+  display: flex;
+  align-items: center;
+  padding: 36px 0 8px;
+}
+.nav {
+  margin-left: auto;
+}
+.nav ul {
+  display: flex;
+}
+.nav a {
+  position: relative;
+  color: #5f5b53;
+  /* text-align: center; Menu nav gồm những phần tử inline nên luôn căn giữa */
+  font-size: 1.6rem;
+  /* font-style: normal;
+  font-weight: 400; Hai dòng này là thuộc tính mặc định nên không cần thiết */
+  /* line-height: 28px; Menu thường là những chữ ngắn, ít xuất hiện dòng 2 nên line height là không cần thiết */
+  padding: 8px 21px;
+}
+.nav li.active a,
+.nav a:hover {
+  font--color: #171100ff;
+  /* font-weight: 600; */
+  text-shadow: 1px 0 0 currentColor;
+}
+.nav li.active a::after {
+  position: absolute;
+  left: 21px;
+  bottom: 6px;
+  display: block; /*Thẻ mặc định là thẻ inline nên không add được w h*/
+  content: "";
+  width: 12px;
+  height: 2px;
+  border-radius: 1px;
+  background: #171100;
+}
+.header .btn-sign-up {
+  min-width: 144px;
+}
+.header .action {
+  margin-left: 49px;
 }
