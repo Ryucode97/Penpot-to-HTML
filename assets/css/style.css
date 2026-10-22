@@ -430,6 +430,7 @@ a {
 }
 
 .feedback-item {
+  width: 100%;
   display: flex;
   flex-shrink: 0;
 }
