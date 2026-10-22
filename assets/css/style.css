@@ -4,7 +4,7 @@
 
 :root {
   --font-heading: "Sen", sans-serif;
-  --primary-color: #FFB900;
+  --primary-color: #ffb900;
 }
 
 html {
@@ -21,14 +21,14 @@ a {
   text-decoration: none;
 }
 
-.heading-lv2{
-color: #171100;
-font-family: var(--font-heading);
-font-size: 3.8rem;
-font-weight: 700;
-line-height: 1.27;
-letter-spacing: -0.76px;
-} 
+.heading-lv2 {
+  color: #171100;
+  font-family: var(--font-heading);
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.27;
+  letter-spacing: -0.76px;
+}
 
 .btn {
   display: inline-block;
@@ -43,7 +43,7 @@ letter-spacing: -0.76px;
   background: #171100;
 }
 
-.btn:hover{
+.btn:hover {
   cursor: pointer;
   opacity: 0.9;
 }
@@ -55,18 +55,18 @@ letter-spacing: -0.76px;
   margin-right: auto;
 }
 
-.line-clamp{
+.line-clamp {
   display: -webkit-box;
-  -webkit-line-clamp: var(--line-clamp,1);
+  -webkit-line-clamp: var(--line-clamp, 1);
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
-.line-clamp.line-2{
+.line-clamp.line-2 {
   --line-clamp: 2;
 }
 
-.break-all{
+.break-all {
   word-break: break-all;
 }
 /* ================== header ================== */
@@ -107,7 +107,7 @@ letter-spacing: -0.76px;
 
 .nav li.active a,
 .nav a:hover {
-  font--color: #171100ff;
+  color: #171100ff;
   /* font-weight: 600; */
   text-shadow: 1px 0 0 currentColor;
 }
@@ -139,6 +139,7 @@ letter-spacing: -0.76px;
 }
 
 .hero .body {
+  margin-left: 135px;
   display: flex;
 }
 
@@ -149,7 +150,7 @@ letter-spacing: -0.76px;
   width: 48%;
 }
 
-.hero .mediablock .img {
+.hero .media-block .img {
   width: 470px;
   height: 685px;
   object-fit: cover;
@@ -226,25 +227,25 @@ letter-spacing: -0.76px;
   letter-spacing: -1.16px;
 }
 
-.hero .desc{
+.hero .desc {
   margin-top: 22px;
-  color #5f5b53;
+  color: #5f5b53;
   font-size: 1.8rem;
   line-height: 1.67;
 }
 
-.hero .cta-group{
+.hero .cta-group {
   display: flex;
   margin-top: 38px;
 }
 
-.hero-cta{
+.hero-cta {
   min-width: 180px;
   line-height: 64px;
   background: var(--primary-color);
 }
 
-.hero .watch-video{
+.hero .watch-video {
   margin-left: 28px;
   align-items: center;
   border: none;
@@ -254,18 +255,18 @@ letter-spacing: -0.76px;
   cursor: pointer;
 }
 
-.hero .watch-video .icon{
+.hero .watch-video .icon {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 40px;
   height: 40px;
   border-radius: 40px;
-  background: #FFF;
-  box-shadow: 0px 8px 16px 0px rgbd(0, 0, 0, 0.07);
+  background: #fff;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.07);
 }
 
-.hero .watch-video span{
+.hero .watch-video span {
   margin-left: 14px;
   color: #171100;
   font-size: 1.8rem;
@@ -273,15 +274,15 @@ letter-spacing: -0.76px;
   line-height: 1.67;
 }
 
-.hero .desc-recent{
+.hero .desc-recent {
   margin-top: 48px;
 }
 
-.hero .stats{
+.hero .stats {
   margin-top: 8px;
 }
 
-.hero .stats strong{
+.hero .stats strong {
   margin-right: 15px;
   color: #171100;
   font-family: var(--font-heading);
@@ -290,18 +291,18 @@ letter-spacing: -0.76px;
   line-height: 1.23;
 }
 
-.hero .stats strong:nth-child(2){
+.hero .stats strong:nth-child(2) {
   margin-left: 28px;
 }
 
 /* ================== header ================== */
 
-.popular{
+.popular {
   padding: 65px 0;
   margin-top: 135px;
 }
 
-.popular-top .desc{
+.popular-top .desc {
   margin-top: 16px;
   width: 458px;
   color: #5f5b53;
@@ -309,62 +310,62 @@ letter-spacing: -0.76px;
   line-height: 1.67;
 }
 
-.popular-top{
-display: flex;
-align-items: center;
-justify-content: space-between;
+.popular-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.popular-top .controls{
+.popular-top .controls {
   display: flex;
   gap: 18px;
 }
 
-.popular-top .control-btn{
-display: flex;
-justify-content: center;
-align-items: center;
-background: transparent;
-width: 40px;
-height: 40px;
-border-radius: 50%;
-border: 1px solid var(--primary-color);
+.popular-top .control-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--primary-color);
 }
 
-.popular-top .control-btn:hover{
+.popular-top .control-btn:hover {
   background: var(--primary-color);
-  color: #FFF;
+  color: #fff;
   cursor: pointer;
 }
 
-.popular .course-list{
+.popular .course-list {
   display: flex;
   gap: 30px;
   margin-top: 55px;
 }
 
-.popular .course-item{
+.popular .course-item {
   flex: 1;
- border-radius: 12px;
- border: 1px solid #e2dfda;
- background: #FFF;
+  border-radius: 12px;
+  border: 1px solid #e2dfda;
+  background: #fff;
 }
 
-.popular .course-item:hover{
- border: 1px solid transparent;
- border-radius: 12px;
- background: #FFF;
- box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+.popular .course-item:hover {
+  border: 1px solid transparent;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
 }
 
-.popular .course-item .thumb{
+.popular .course-item .thumb {
   border-radius: 12px 12px 0px 0px;
   width: 100%;
   height: 278px;
   object-fit: cover;
 }
 
-.popular .course-item .info{
+.popular .course-item .info {
   padding: 16px 22px 22px;
 }
 
@@ -376,65 +377,71 @@ border: 1px solid var(--primary-color);
   justify-content: space-between;
 }
 
-.popular .course-item .title a{
+.popular .course-item .title a {
   color: #171100;
   font-size: 1.8rem;
   font-weight: 600;
   line-height: 1.67;
 }
 
-.popular .rating .value{
+.popular .rating .value {
   margin-left: 6px;
   color: #fea31b;
   font-size: 16px;
   line-height: 1.75;
 }
 
-.popular .course-item .desc{
+.popular .course-item .desc {
   margin-top: 6px;
   color: #5f5b53;
   font-size: 1.4rem;
   line-height: 1.86;
 }
 
-.popular .course-item .foot{
+.popular .course-item .foot {
   margin-top: 12px;
 }
 
-.popular .course-item .price{
+.popular .course-item .price {
   color: #171100;
   font-size: 1.8rem;
   font-weight: 600;
   line-height: 1.67;
 }
 
-.popular .course-item .btn-book{
+.popular .course-item .btn-book {
   border: none;
 }
 
-.popular .course-item .btn-book:hover{
+.popular .course-item .btn-book:hover {
   background: var(--primary-color);
 }
 
 /* ==================================== feedback ==================================== */
-.feedback{
+.feedback {
   margin-top: 135px;
   padding: 96px 0;
-  background: #2e2100FF;
+  background: #2e2100ff;
 }
 
-.feedback-item{
+.feedback-list {
   display: flex;
+  overflow: hidden;
 }
 
-.feedback-item .avatar{
+.feedback-item {
+  display: flex;
+  flex-shrink: 0;
+}
+
+.feedback-item .avatar {
   width: 72px;
   height: 72px;
   border-radius: 50%;
   object-fit: cover;
 }
 
-.feedback-item .info .member-name{
+.feedback-item .info .member-name {
   margin-top: 18px;
   color: #f7f7f7;
   font-family: var(--font-heading);
@@ -443,20 +450,20 @@ border: 1px solid var(--primary-color);
   line-height: 1.42;
 }
 
-.feedback-item .info .desc{
-  margin-top: 4px; 
+.feedback-item .info .desc {
+  margin-top: 4px;
   color: #bfbcb2;
   font-size: 1.4rem;
   line-height: 1.86;
 }
 
-.feedback-item .dots{
+.feedback-item .dots {
   gap: 6px;
   display: flex;
   margin-top: 28px;
 }
 
-.feedback-item .dot{
+.feedback-item .dot {
   height: 6px;
   width: 6px;
   border-radius: 50%;
@@ -464,19 +471,67 @@ border: 1px solid var(--primary-color);
   cursor: pointer;
 }
 
-.feedback-item .dot.active{
+.feedback-item .dot.active {
   background: var(--primary-color);
   cursor: default;
 }
 
-.feedback-item .content{
+.feedback-item .content {
   width: 66%;
   margin-left: auto;
 }
 
-.feedback-item blockquote{
-  color: #FFF;
+.feedback-item blockquote {
+  color: #fff;
   font-size: 2.6rem;
   font-style: italic;
   line-height: 1.54;
+}
+
+/* ==================================== features ==================================== */
+
+.features {
+  margin-top: 135px;
+  padding: 65px 0;
+}
+.features .body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features .images {
+  gap: 30px;
+  display: flex;
+}
+
+.features .images img {
+  width: 270px;
+  height: 405px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.features .lower {
+  margin-top: 34px;
+}
+
+.features .content {
+  width: 41%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.features .desc {
+  margin-top: 16px;
+  color: #5f5b53;
+  font-size: 1.6rem;
+  line-height: 1.75;
+}
+
+.features .cta-btn {
+  margin-top: 32px;
+  width: 137px;
+  height: 50px;
+  background: var(--primary-color);
 }
